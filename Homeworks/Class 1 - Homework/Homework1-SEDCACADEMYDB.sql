@@ -3,6 +3,11 @@ CREATE DATABASE SEDCACADEMYDB;
 USE SEDCACADEMYDB;
 
 DROP TABLE IF EXISTS [Students];
+DROP TABLE IF EXISTS [Teachers];
+DROP TABLE IF EXISTS [Grades];
+DROP TABLE IF EXISTS [Courses];
+DROP TABLE IF EXISTS [AchievementTypes];
+DROP TABLE IF EXISTS [GradeDetails];
 
 CREATE TABLE [Students](
 [ID] int identity(1,1) not null,
@@ -57,4 +62,4 @@ CREATE TABLE [GradeDetails](
 [AchievementDate] date null
 );
 
---SELECT * FROM Students
+SELECT * FROM Students

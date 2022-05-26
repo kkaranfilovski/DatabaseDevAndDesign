@@ -26,6 +26,7 @@ WHERE HireDate BETWEEN '1998-01-01' AND '1998-01-31'
 GO
 
 --Find all Employees with LastName starting With ‘A’ hired in January/1998
+-- nema vakvi
 SELECT * FROM Employees
 WHERE LastName LIKE 'A%' AND HireDate BETWEEN '1998-01-01' AND '1998-01-31'
 GO

@@ -1,3 +1,6 @@
+USE SEDC
+GO
+
 --List all BusinessEntity Names and Customer Names in single result set with duplicates
 SELECT [Name] AS [All names] FROM BusinessEntities
 UNION ALL
